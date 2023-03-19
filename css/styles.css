@@ -48,6 +48,9 @@ body {
   color: #2e2f42;
 }
 
+.header-address {
+  font-style: normal;
+}
 .header-link {
   font-weight: 500;
   font-size: 16px;
@@ -71,8 +74,9 @@ body {
   letter-spacing: 0.02em;
   /* SLATE */
   color: #434455;
-  font-style: normal; /* for auto cheak -this is up :-)*/
+  /* font-style: normal; */
 }
+/*  font-style: normal; for auto cheak -this is up :-)*/
 
 /* --------- HERO ----------------------------------------- */
 
