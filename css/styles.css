@@ -216,7 +216,7 @@ body {
 /* --------- FILTER  ----------------------------------------- */
 
 .filter-button-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5; /*24px*/
@@ -231,10 +231,12 @@ body {
   border-style: none;
 }
 
-.filter-button-text:hover {
+.filter-button-text:hover,
+.filter-button-text:focus {
   color: #ffffff;
   /* OCEAN */
   background-color: #404bbf;
+  cursor: pointer;
 }
 
 /* --------- GALLERY  ----------------------------------------- */
