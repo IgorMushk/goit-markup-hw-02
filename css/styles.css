@@ -1,3 +1,7 @@
+:root {
+    --main-hero-color: #2e2f42;;
+  }
+
 body {
   /* font-family: "Raleway", sans-serif; */
   font-family: "Roboto", sans-serif;
@@ -72,7 +76,7 @@ body {
 
 .hero {
   /* NAVY BLUE */
-  background: #2e2f42;
+  background: var(--main-hero-color);
 }
 .hero-title {
   font-weight: 700;
