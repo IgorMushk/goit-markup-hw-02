@@ -132,7 +132,7 @@ body {
 .doing-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(40 / 36);
+  line-height: 1.11; /* 40px -> calc(40 / 36)* auto test ERROR*/
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -150,7 +150,7 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(40 / 36);
+  line-height: 1.11; /* 40px -> calc(40 / 36)* auto test ERROR*/
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -166,6 +166,7 @@ body {
   letter-spacing: 0.02em;
   /* NAVY BLUE */
   color: #2e2f42;
+  background-color: #ffffff;
 }
 .team-item-text {
   font-weight: 400;
@@ -176,6 +177,7 @@ body {
   letter-spacing: 0.02em;
   /* SLATE */
   color: #434455;
+  background-color: #ffffff
 }
 
 /* --------- FOOTER  ----------------------------------------- */
