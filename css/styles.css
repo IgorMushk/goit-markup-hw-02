@@ -186,18 +186,14 @@ body {
 .logo-bottom {
   text-decoration: none;
 }
-.logo-bottom-first,
-.logo-bottom-second {
+
+.logo-bottom {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: calc(21 / 18);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.logo-bottom-first {
-  /* IRIS */
   color: #4d5ae5;
 }
 
