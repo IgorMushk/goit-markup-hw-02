@@ -64,14 +64,14 @@ body {
   color: #404bbf;
 }
 
-.header-email,
-.header-phone {
+.adress-info {
   font-weight: 400;
   font-size: 16px;
   line-height: (24/16);
   letter-spacing: 0.02em;
   /* SLATE */
   color: #434455;
+  font-style: normal; /* for auto cheak -this is up :-)*/
 }
 
 /* --------- HERO ----------------------------------------- */
