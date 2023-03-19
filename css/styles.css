@@ -244,7 +244,7 @@ body {
 .galley-item-titel {
   font-weight: 500;
   font-size: 20px;
-  line-height: calc(24 / 20);
+  line-height: 1.2; /*24px*/
   letter-spacing: 0.02em;
   /* NAVY BLUE */
   color: #2e2f42;
