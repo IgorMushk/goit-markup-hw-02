@@ -31,20 +31,17 @@ body {
   text-decoration: none;
 }
 
-.logo-top-first,
-.logo-top-second {
+.logo-top {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33; /*calc(24 / 18)*/
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.logo-top-first {
   /* IRIS */
   color: #4d5ae5;
 }
+
 .logo-top-second {
   /* NAVY BLUE */
   color: #2e2f42;
@@ -177,7 +174,7 @@ body {
   letter-spacing: 0.02em;
   /* SLATE */
   color: #434455;
-  background-color: #ffffff
+  background-color: #ffffff;
 }
 
 /* --------- FOOTER  ----------------------------------------- */
